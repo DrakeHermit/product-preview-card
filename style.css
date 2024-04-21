@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --background-color: hsl(30, 38%, 92%);
+  --card-bgcolor: hsl(0, 0%, 100%);
+  --font-montserrat: 'Montserrat', sans-serif;
+  --montserrat-normal: 500;
+  --montserrat-bold: 700;
+  --font-fraunces: 'Fraunces', sans-serif;
+  --faunces-bold: 700;
+  --dark-grayish-blue: hsl(228, 12%, 48%);
+  --dark-cyan: hsl(158, 36%, 37%);
+  --dark-blue: hsl(212, 21%, 14%);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--background-color);
+}
+
+img {
+  width: 18.75rem;
+  height: 28.125rem;
+  filter: brightness(0.8);
+  border-radius: 0.6rem 0 0 0.6rem;
+}
+
+.card {
+  display: flex;
+  max-width: 37.5rem;
+  height: 28.125rem;
+  background-color: var(--card-bgcolor);
+  border-radius: 0.6rem;
+}
+
+.information {
+  padding: 2rem;
+}
+
+.information .tag {
+  font-size: 0.75rem;
+  margin-bottom: 1rem;
+  color: var(--dark-grayish-blue);
+  letter-spacing: 0.31rem;
+}
+
+.information h1 {
+  font-size: 2rem;
+  line-height: 1;
+  color: var(--dark-blue);
+  margin-bottom: 1.8rem;
+}
+
+.information .description {
+  font-size: 0.875rem;
+  color: var(--dark-grayish-blue);
+  margin-bottom: 1.7rem;
+  line-height: 1.65;
+}
+
+.information .price-tag{
+  display: flex;
+  gap: 1.3rem;
+  align-items: center;
+  margin-bottom: 1.6rem;
+}
+
+.information .price {
+  font-size: 2rem;
+  color: var(--dark-cyan);
+}
+
+.information .strike-through {
+  text-decoration: line-through;
+  font-size: 0.813rem;
+  color: var(--dark-grayish-blue);
+}
+
+.information .add {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 3.8rem;
+  color: var(--card-bgcolor);
+  border-radius: 0.4rem;
+  border: none;
+  cursor: pointer;
+  background-color: var(--dark-cyan);
+}
+
+/* Font family and custom classes*/
+.montserrat-bold {
+  font-family: var(--font-montserrat);
+  font-optical-sizing: auto;
+  font-weight: var(--montserrat-bold);
+  font-style: normal;
+}
+
+.montserrat-normal {
+  font-family: var(--font-montserrat);
+  font-optical-sizing: auto;
+  font-weight: var(--montserrat-normal);
+  font-style: normal;
+}
+
+.faunces-bold {
+  font-family: var(--font-fraunces);
+  font-optical-sizing: auto;
+  font-weight: var(--faunces-bold);
+  font-style: normal;
+}

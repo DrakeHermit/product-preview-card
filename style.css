@@ -73,7 +73,7 @@ img {
   display: flex;
   gap: 1.3rem;
   align-items: center;
-  margin-bottom: 1.6rem;
+  margin-bottom: 1.5rem;
 }
 
 .information .price {
@@ -91,12 +91,17 @@ img {
   display: flex;
   align-items: center;
   gap: 1rem;
+  font-size: 0.875rem;
   padding: 1rem 3.8rem;
   color: var(--card-bgcolor);
   border-radius: 0.4rem;
   border: none;
   cursor: pointer;
   background-color: var(--dark-cyan);
+}
+
+.information .add:hover{
+  background-color: #1A4032;
 }
 
 /* Font family and custom classes*/
@@ -120,3 +125,4 @@ img {
   font-weight: var(--faunces-bold);
   font-style: normal;
 }
+

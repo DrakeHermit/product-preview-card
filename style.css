@@ -29,14 +29,13 @@ img {
 
 body {
   display: flex;
-  height: 100dvh;
+  min-height: 100dvh;
   align-items: center;
   justify-content: center;
   background-color: var(--background-color);
 }
 
 .preview img {
-  height: 28.125rem;
   width: 18.75rem;
   filter: brightness(0.8);
   border-radius: 0.6rem 0 0 0.6rem;
@@ -45,7 +44,6 @@ body {
 .card {
   display: flex;
   max-width: 37.5rem;
-  /* height: 28.125rem; */
 }
 
 .information {
@@ -132,24 +130,25 @@ body {
   font-style: normal;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 25rem) {
   .card {
     flex-direction: column;
     margin-block: 1rem;
+    max-width: 21.44rem;
   }
   .preview img{
     border-radius: 0.6rem 0.6rem 0 0;
-    width: 343px;
-    height: 371px;
+    width: 21.44rem;
+    height: 16.25rem;
+    object-fit: cover;
   }
   .information {
-    width: 343px;
     border-radius: 0 0 0.6rem 0.6rem;
   }
   .information h1 {
     margin-bottom: 1.5rem;
   }
   .information .add {
-    width: 100%;
+    padding: 1rem 5.1rem;
   }
 }

@@ -27,7 +27,7 @@ Users should be able to:
 
 ![](/images/screenshot-desktop.png)
 
-![](/images/screenshot2.jpg)
+![](/images/screenshot1.jpg)
 
 ### Links
 

@@ -27,16 +27,18 @@ Users should be able to:
 
 ![](/images/screenshot-desktop.png)
 
+![](/images/screenshot2.jpg)
+
 ### Links
 
 - Solution URL: [GitHub](https://github.com/DrakeHermit/product-preview-card)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live Site](https://resilient-dasik-d2bdf8.netlify.app/)
 
 ## My process
 
 - Write the HTML markup
 - Add CSS styling
-- Add media query
+- Make it responsive by adding a media query
 
 ### Built with
 
@@ -46,12 +48,12 @@ Users should be able to:
 
 ### What I learned
 
-
+I learned to work with CSS even better, even if there were hurdles I needed to overcome to where I was headed. Other than that this challenge was pretty straight forward and didn't take me that long to finish.
 
 ### Continued development
 
-
+I need to work on making websites more responsive since I still lack a good understanding of how to actually build out the sites without way too many issues arising. But I'll get there eventually. Everyday I learn something new that help me out tremendously.
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@DrakeHermit](https://www.frontendmentor.io/profile/DrakeHermit)

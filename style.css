@@ -130,7 +130,7 @@ body {
   font-style: normal;
 }
 
-@media screen and (max-width: 25rem) {
+@media screen and (max-width: 26rem) {
   .card {
     flex-direction: column;
     margin-block: 1rem;
